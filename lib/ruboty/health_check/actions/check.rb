@@ -1,9 +1,6 @@
 require 'open-uri'
 require 'json'
 
-OpenSSL::SSL::VERIFY_PEER = OpenSSL::SSL::VERIFY_NONE
-
-
 module Ruboty
   module HealthCheck
     module Actions
